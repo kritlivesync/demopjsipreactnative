@@ -1,0 +1,5 @@
+rootProject.name = 'rnpjsip'
+include ':react-native-pjsip'
+project(':react-native-pjsip').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-pjsip/android')
+
+include ':app'
